@@ -1,0 +1,53 @@
+.online {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(13, 174, 13, 0.944);
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    inset-inline: 0;
+}
+
+.offline {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    inset-inline: 0;
+}
+
+.offline-wide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+
+    .content {
+        text-align: center;
+        font-size: 1.2rem;
+
+        .img{
+            width:22rem;
+        }
+
+        .retry_btn {
+            background-color: #eee;
+            padding: 1rem;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #ccc;
+            }
+        }
+    }
+
+}
